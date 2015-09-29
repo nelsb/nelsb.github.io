@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Conway's Game of Life</title>
+  <meta charset='utf-8'>
+  <style>
+    div {
+      width: 1px;
+      height: 1px;
+      position: relative;
+    }
+  </style>
+</head>
+
+<body>
+  <button id='clear'>Clear</button>
+  <button id='step'>Step</button>
+  <button id='runPause'>Run/Pause</button>
+
+  <div>
+    <canvas id='canvas' width='800' height='600'></canvas>
+  </div>
+  <script src='CellGroup.js'></script>
+  <script src='model.js'></script>
+  <script src='view.js'></script>
+  <script src='game-controller.js'></script>
+</body>
+
+</html>
